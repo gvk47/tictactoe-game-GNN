@@ -31,6 +31,10 @@ pip install ipywidgets
 
    You can open the Jupyter Notebook or Google Colab file in the folder where the code is located.
 
+2. **Data set in the same folder:**
+
+   Ensure that the "Tic tac initial results.csv" dataset file obtained from "https://www.kaggle.com/datasets/fabdelja/tictactoe" should be present in the same directory as the code.
+
 2. **Run the Cells:**
 
    Execute all the cells in the Tic_Tac_Toe_.ipynb notebook to train, test, evaluate and start the game.
