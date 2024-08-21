@@ -31,15 +31,11 @@ pip install ipywidgets
 
    You can open the Jupyter Notebook or Google Colab file in the folder where the code is located.
 
-2. **Load the Model:**
+2. **Run the Cells:**
 
-   Ensure that the pre-trained GNN model (`GNN.ipynb`) file is available in the same folder. If the model file is missing, the game will not load correctly.
+   Execute all the cells in the Tic_Tac_Toe_.ipynb notebook to train, test, evaluate and start the game.
 
-3. **Run the Cells:**
-
-   Execute all the cells in the notebook to start the game.
-
-4. **Play the Game:**
+3. **Play the Game:**
 
    - The game UI will be displayed, and you can start playing by clicking on the grid.
    - The AI will automatically make moves after you.
@@ -53,7 +49,6 @@ The GNN model is trained to evaluate the Tic Tac Toe board as a graph, where eac
 ```plaintext
 Tic-Tac-Toe-GNN/
 │
-├── GNN.ipynb                     # Pre-trained GNN model file
 ├── Tic tac initial result.csv    # Containing Data set
-├──tic_tac_toe.py                 # Google Colab containing the game and model code
+├──Tic_Tac_Toe_.ipynb             # Google Colab/jupyter notebook containing the game and model code
 └── README.md                     # Project documentation
